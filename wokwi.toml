@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'build/Menu_musical.uf2'
+elf = 'build/Menu_musical.elf'

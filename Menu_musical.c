@@ -307,8 +307,6 @@ int main() {
         ssd1306_draw_string(&display, "NOTA", 70, 16);
         ssd1306_draw_string(&display, "ATUAL", 67, 24);
 
-            // Desenha a nota atual com o símbolo correspondente
-        ssd1306_draw_string(&display, nota_atual_nome, 70, 40);
 
         // Desenha as notas no menu com rolagem
         for (int i = 0; i < VISIBLE_NOTES; i++) {
@@ -324,11 +322,10 @@ int main() {
                     ssd1306_draw_string(&display, ">", 2, 16 + i * 9);
                 }
             }
-            // Limpa a área onde o nome da nota será exibido
-            
+            // Desenha a nota atual com o símbolo correspondente
+            ssd1306_draw_string(&display, nota_atual_nome, 70, 40);          
         }
         
-
         // Atualiza o display
         ssd1306_send_data(&display);
 
