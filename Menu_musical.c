@@ -38,7 +38,7 @@
 // Número total de notas
 #define NUM_NOTES 7
 // Número de notas visíveis
-#define VISIBLE_NOTES 10
+#define VISIBLE_NOTES 5
 
 typedef struct {
     const char *nome;
