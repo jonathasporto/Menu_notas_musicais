@@ -187,3 +187,9 @@ O sistema responde corretamente aos comandos do joystick e botões. As notas sã
 
 
 ---
+
+## Video explicativo do projeto
+
+[AQUI!](https://youtu.be/CfrA_CtDFmg)
+
+---
