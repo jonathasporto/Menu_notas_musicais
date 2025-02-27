@@ -185,25 +185,5 @@ O sistema responde corretamente aos comandos do joystick e botões. As notas sã
 - Repositório de inspiração: [https://github.com/lpfahler/Pico_Projects/blob/main/menu_jukebox_version_Final.py](https://github.com/lpfahler/Pico_Projects/blob/main/menu_jukebox_version_Final.py)
 - Vídeo de inspiração: [https://youtu.be/mU3y9iTukI8?si=qbwEHjcGC4x-svSG](https://youtu.be/mU3y9iTukI8?si=qbwEHjcGC4x-svSG)
 
----
-
-## 7. Anexos
-1. Diagrama de ligação do circuito.
-2. Vídeo demonstrativo do projeto.
-3. Código fonte comentado.
-
----
-
-### Como Criar o Diagrama de Blocos
-
-1. **Ferramentas**:
-   - Utilize ferramentas como **Fritzing**, **KiCad** ou **Lucidchart** para criar o diagrama de blocos.
-
-2. **Passos**:
-   - Abra a ferramenta escolhida.
-   - Adicione os componentes (Raspberry Pi Pico, display OLED, buzzer, joystick, botões).
-   - Conecte os componentes conforme descrito na seção **2.5. Descrição da Pinagem Usada**.
-   - Exporte o diagrama em formato PNG ou PDF para inclusão no relatório.
-
 
 ---
